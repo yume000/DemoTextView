@@ -16,4 +16,12 @@
         android:singleLine="true"
         android:focusableInTouchMode="true"
         android:focusable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textMarquee"
+        android:text="text"
+        android:background="@drawable/text_bg"
+        style="@style/text"/>
 </RelativeLayout>
